@@ -18,3 +18,9 @@ def CreateWidgets():
 
     root.destinationText = Entry(root, width=50, textvariable=destinationLocation)
     root.destinationText.grid(row=2, column=1, pady=5, padx=5, columnspan = 2)
+
+    dest_browseButton = Button(root, text="BROWSE", command=DestinationBrowse, width=15)
+    dest_browseButton.grid(row=2, column=3, pady=5, padx=5)
+
+    moveButton = Button(root, text="MOVE FILE", command=MoveFile, width=15)
+    moveButton.grid(row=4, column=1, pady=5, padx=5)
