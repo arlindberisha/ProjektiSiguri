@@ -30,3 +30,9 @@ def SourceBrowse():
     root.files = list(filedialog.askopenfilenames(initialdir="/Users/abhijithwarrier/Documents/PythonExample"))
 
     root.sourceText.insert('1', root.files)
+
+def DestinationBrowse():
+
+    destinationdirectory = filedialog.askdirectory(initialdir="/Users/abhijithwarrier/Documents/PythonExample")
+
+    root.destinationText.insert('1', destinationdirectory)
