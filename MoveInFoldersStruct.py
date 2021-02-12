@@ -36,3 +36,27 @@ def DestinationBrowse():
     destinationdirectory = filedialog.askdirectory(initialdir="/Users/abhijithwarrier/Documents/PythonExample")
 
     root.destinationText.insert('1', destinationdirectory)
+
+def MoveFile():
+    files = root.files
+
+    destination_location = destinationLocation.get()
+
+    for file in files:
+
+        shutil.move(file, destination_location)
+
+    messagebox.showinfo("SUCCESS", "FILES MOVED SUCCESSFULLY")
+
+root = tk.Tk()                                                  
+
+root.geometry("610x120")
+root.title("FILES MOVE APP")
+root.config(background = "navajowhite3")
+
+sourceLocation = StringVar()
+destinationLocation = StringVar()
+
+CreateWidgets()
+
+root.mainloop()
