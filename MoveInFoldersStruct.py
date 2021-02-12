@@ -24,3 +24,9 @@ def CreateWidgets():
 
     moveButton = Button(root, text="MOVE FILE", command=MoveFile, width=15)
     moveButton.grid(row=4, column=1, pady=5, padx=5)
+
+def SourceBrowse():
+
+    root.files = list(filedialog.askopenfilenames(initialdir="/Users/abhijithwarrier/Documents/PythonExample"))
+
+    root.sourceText.insert('1', root.files)
