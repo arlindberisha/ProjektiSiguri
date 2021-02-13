@@ -18,7 +18,7 @@ Pas ekzekutimit të aplikacionit do të shfaqet figura si në vijim:
 
 
 
-
+ 
 
 
                         
