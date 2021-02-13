@@ -7,5 +7,19 @@ Studente:
          
 Detyra 13: Zhvillimi i aplikacionit i cili mundeson levizjen neper strukturen e folderave ne hostin ku vendoset. Funksionimi i aplikacionit si shell skripte injektuese.
 
-Procedura e ekzekutimit:
+Pas ekzekutimit të aplikacionit do të shfaqet figura si në vijim:
+
+
+
+
+
+
+
+
+
+
+
+
+
                         
+Ku aplikacioni ynë e mundëson lëvizjen
